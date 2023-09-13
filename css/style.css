@@ -93,6 +93,7 @@ main{
 
 .card-image{
     width: 100%;
+    position: relative;
 }
 
 .card-image img{
@@ -126,6 +127,42 @@ main{
 
 .promotional-price{
     color: var(--color-discount);
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.discount-badge{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background-color: var(--color-discount);
+    color: var(--color-white);
+    padding: 5px 10px;
+}
+
+.sustainability-badge{
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
+    background-color: var(--color-sustainability);
+    color: var(--color-white);
+    padding: 5px 10px;
+}
+
+.heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--color-white);
+    padding: 15px;
+}
+
+.heart:hover{
+    color: var(--color-discount);
+    cursor: pointer;
 }
 
 /* _____________________________________________ */
