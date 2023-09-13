@@ -43,6 +43,14 @@
     align-content: space-between;
     align-items: flex-start;
 }
+.footer-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
 
 /* Header */
 
@@ -74,10 +82,10 @@ header{
 .padding-header{
     padding: 10px 0;
 }
-.padding-right-header{
+.padding-right{
     padding-right: 10px;
 }
-.padding-left-header{
+.padding-left{
     padding-left: 10px;
 }
 
@@ -172,15 +180,34 @@ main{
 footer{
     background-color: var(--color-black);
     color: var(--color-white);
+    padding: 30px 0;
 }
 
 .legal-information a{
     text-decoration: none;
+    color: var(--color-white);
+    padding-right: 15px;
+    font-size: 0.9em;
 }
 
+.legal-information h5{
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}
 
+.social{
+    color: var(--color-white);
+    font-size: 1.1em;
+    text-align: center;
+}
 
+.social h5{
+    padding-bottom: 20px;
+}
 
+.social-icons a i{
+    color: var(--color-white);
+}
 
 
 /* _____________________________________________ */
