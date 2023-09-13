@@ -23,15 +23,20 @@
     margin: 0 auto;
 }
 
-
+/* <i class="fa-solid fa-heart"></i> cuore pieno */
 /* Header */
 
 header{
     background-color: var(--color-header-boolando);
 }
 
-
-
+.gender a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+.logo img{
+    max-width: 100%;
+}
 
 
 
