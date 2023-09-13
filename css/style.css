@@ -24,6 +24,18 @@
 }
 
 /* <i class="fa-solid fa-heart"></i> cuore pieno */
+
+/* FLEX UTILITIES */
+
+.row-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
 /* Header */
 
 header{
@@ -35,9 +47,14 @@ header{
     text-decoration: none;
 }
 .logo img{
-    max-width: 100%;
+    max-width: 100%;    
+    
 }
 
+.nav-icons a i {
+    color: var(--color-white);
+    text-decoration: none;
+}
 
 
 
