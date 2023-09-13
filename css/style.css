@@ -46,9 +46,12 @@ header{
     color: var(--color-white);
     text-decoration: none;
 }
+.logo{
+    width: 20%;
+}
 .logo img{
     max-width: 100%;    
-    
+
 }
 
 .nav-icons a i {
