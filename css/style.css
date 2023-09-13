@@ -1,7 +1,7 @@
 /* Generals */
 
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -41,6 +41,8 @@
 header{
     background-color: var(--color-header-boolando);
     width: 100%;
+    position: fixed;
+    height: 65px;
 }
 
 .gender a{
