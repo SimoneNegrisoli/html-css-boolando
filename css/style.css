@@ -17,13 +17,18 @@
 .debug{
     border: 2px solid black;
 }
-/* _____________________________________________ */
 
-
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 /* Header */
 
+header{
+    background-color: var(--color-header-boolando);
+}
 
 
 
@@ -38,7 +43,9 @@
 
 
 /* Main */
-
+main{
+    background-color: var(--color-white);
+}
 
 
 
@@ -52,8 +59,9 @@
 
 
 /* Footer */
-
-
+footer{
+    background-color: var(--color-black);
+}
 
 
 
